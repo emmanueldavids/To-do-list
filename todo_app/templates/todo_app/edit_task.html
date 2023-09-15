@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Task</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'todo_app/styles.css' %}">
+
+</head>
+<body>
+    <h1>Edit Task</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit"><b>Save Changes</b></button>
+    </form>
+    <a href="{% url 'task_list' %}"><i><b>Cancel</b></i></a>
+</body>
+</html>
+

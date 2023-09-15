@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body, h1, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Center the form on the page */
+form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+/* Style the completed tasks */
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Style the "Add Task" button */
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
