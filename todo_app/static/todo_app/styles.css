@@ -43,7 +43,7 @@ a:hover {
 form {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
 }
 
 button {
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e42222;
 }
 
 /* Center the form on the page */
